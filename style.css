@@ -1,0 +1,76 @@
+/* container */
+.container{
+  background-color: grey;
+  color: black;
+  display: flex;
+  padding: 0px 20px;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  position: sticky;
+  top: 0px;
+}
+
+/* right right */
+.right{
+  ul li  {
+   list-style-type: none;
+   display: inline-block;
+   a{
+    text-decoration: none;
+    padding: 19px;
+    color: black;
+    font-style: initial;
+   }
+  }
+}
+
+/* nav left */
+.left{
+ font-size: large;
+}
+/* 
+button */
+.button{
+ background-color: black;
+ color: bisque;
+ border-radius: 3px;
+ width: 80px;
+}
+/* header */
+.header{
+  flex-direction: column;
+  margin-top: 20px;
+  height: 200px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-color:rgb(189, 182, 182) ; 
+}
+/*  Card-Box */
+.cardbox{
+  border: 2px solid black;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  div{
+    text-align: center;
+  }
+}
+/* card */
+.card{
+  border: 2px solid black;
+  height: 450px;
+  width: 286px;
+  margin: 20px;
+  box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.22), 1px 0px 0px 0px rgba(0,0,0,0.22), 1px 2px 0px 0px rgba(0,0,0,0.22), 2px 1px 0px 0px rgba(0,0,0,0.22), 2px 3px 0px 0px rgba(0,0,0,0.22), 3px 2px 0px 0px rgba(0,0,0,0.22), 3px 4px 0px 0px rgba(0,0,0,0.22), 4px 3px 0px 0px rgba(0,0,0,0.22), 4px 5px 0px 0px rgba(0,0,0,0.22), 5px 4px 0px 0px rgba(0,0,0,0.22), 5px 6px 0px 0px rgba(0,0,0,0.22), 6px 5px 0px 0px rgba(0,0,0,0.22), 6px 7px 0px 0px rgba(0,0,0,0.22), 7px 6px 0px 0px rgba(0,0,0,0.22), 7px 8px 0px 0px rgba(0,0,0,0.22), 8px 7px 0px 0px rgba(0,0,0,0.22);
+}
+/* buybut */
+.buybut{
+  color: azure;
+  background-color: black;
+  padding: 3px;
+  width: 80px;
+  border-radius: 5px;
+}
